@@ -4,31 +4,31 @@ import {ImageList, ImageListItem} from "@mui/material";
 
 const itemData = [
     {
-        src: '/resources/gallery1.jpg'
+        src: 'https://drive.google.com/uc?export=view&id=1B8LoHWlHcC-uJtK1_sK7mXiPsRwLv3mv'
     },
     {
-        src: '/resources/gallery3.jpg'
+        src: 'https://drive.google.com/uc?export=view&id=18Tu5f3y0iLOkPGw9BIDtS0_UKel3Velr'
     },
     {
-        src: '/resources/gallery2.jpg'
+        src: 'https://drive.google.com/uc?export=view&id=1TOjrvTvdCI45DtOFubZbz966AeUc5TLV'
     },
     {
-        src: '/resources/gallery4.jpg'
+        src: 'https://drive.google.com/uc?export=view&id=1Ree7xmMzIzNHBuilfBQhgDPpqVwSISJk'
     },
     {
-        src: '/resources/gallery5.jpg'
+        src: 'https://drive.google.com/uc?export=view&id=1tMPO5hBxDS_OuIkpeNC4cvySsZ12_5eZ'
     },
     {
-        src: '/resources/gallery6.jpg'
+        src: 'https://drive.google.com/uc?export=view&id=1ZP_jXZeSFH9Hw0IU5kyKOiKZJtx8PCgl'
     },
     {
-        src: '/resources/gallery7.jpg'
+        src: 'https://drive.google.com/uc?export=view&id=1eAkR52RizYpmSLT38A3zBJgjfVXG3rz6'
     },
     {
-        src: '/resources/gallery9.jpg'
+        src: 'https://drive.google.com/uc?export=view&id=1XIX0lv8Hbd86HsUiidN77bTsPF_fo-yM'
     },
     {
-        src: '/resources/gallery8.jpg'
+        src: 'https://drive.google.com/uc?export=view&id=1WCjUgQR8X6oOsktLEH_y3RnGNNd_5KZ8'
     }
 ];
 

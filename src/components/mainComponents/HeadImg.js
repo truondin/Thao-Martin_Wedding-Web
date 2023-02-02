@@ -11,7 +11,7 @@ function HeadImg(props) {
                 padding: 0,
                 margin: 0,
             }}
-            src={"/resources/main.jpg"}
+            src={"https://drive.google.com/uc?export=view&id=1b3r8oBTNZxS5eWXxT9UKpnvKPlMI-jtv"}
         />
     );
 }

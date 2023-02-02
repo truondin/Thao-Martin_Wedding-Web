@@ -52,7 +52,7 @@ function MenuPart(props) {
                                       clickToScroll(props.refsList[index])
                                   }}
                         >
-                            <Typography style={{fontFamily: 'serif'}} textAlign="center">{page}</Typography>
+                            <Typography textAlign="center">{page}</Typography>
                         </MenuItem>
                     ))}
                 </Menu>
