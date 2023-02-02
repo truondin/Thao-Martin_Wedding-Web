@@ -1,10 +1,13 @@
 import './App.css';
 import MenuBar from "./components/MenuBar";
 import Main from "./components/Main";
-import {useRef} from "react";
+import {useEffect, useRef} from "react";
 import React, { Component }  from 'react';
 
 function App() {
+    useEffect(() => {
+        document.title = "Thao & Martin";
+    }, []);
 
     const partyRef = useRef(null)
     const programRef = useRef(null)
