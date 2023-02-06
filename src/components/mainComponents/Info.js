@@ -5,14 +5,15 @@ const mapStyle = {
     width: {md: "40vw", xs: "80vw"},
     height: {md: "40vh", xs: "50vh"},
     padding: "5px",
-    margin: "5px"
+    margin: "5px",
+    fontFamily: 'Montserrat, roboto'
 }
 
 function Info(props) {
     return (
         <div ref={props.reference} style={{display: "flex", justifyContent: "center", alignItems: "center", flexDirection:"column"}}>
-            <h1 style={{marginBottom: 0,fontFamily: 'Tangerine, serif', fontWeight: 'normal', fontSize: 70}}>Informace</h1>
-            <Box>
+            <h1 style={{marginBottom: 0,fontFamily: 'Alex Brush, Tangerine, serif', fontWeight: 'normal', fontSize: 70}}>Informace</h1>
+            <Box sx={{fontFamily: 'Montserrat, roboto'}}>
                 <h2>Kdy:</h2>
                 <p style={{fontSize:25}}>29. Července 2023</p>
             </Box>

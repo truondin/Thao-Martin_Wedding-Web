@@ -8,21 +8,21 @@ import {Box, Typography} from "@mui/material";
 import TimelineItem, { timelineItemClasses } from '@mui/lab/TimelineItem';
 
 const titleStyle = {
-    fontFamily: 'serif'
+    fontFamily: 'Montserrat, roboto'
 }
 
 
 const infoTitleStyle = {
-    fontFamily: 'serif',
+    fontFamily: 'Montserrat, roboto',
     fontSize: 18
 }
 
 function Program(props) {
     return (
         <div ref={props.reference} >
-            <h1 style={{fontFamily: 'Tangerine, serif', fontWeight: 'normal', fontSize: 70}}>Program</h1>
+            <h1 style={{fontFamily: 'Alex Brush, Tangerine, serif', fontWeight: 'normal', fontSize: 70}}>Program</h1>
 
-            <Box sx={{ display: { xs: 'none', md: 'flex'}, fontFamily: 'serif'}}>
+            <Box sx={{ display: { xs: 'none', md: 'flex'}}}>
                 <Timeline position="alternate">
                     <TimelineItem>
                         <TimelineSeparator>

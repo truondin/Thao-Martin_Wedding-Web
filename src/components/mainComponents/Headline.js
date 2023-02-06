@@ -15,18 +15,20 @@ import { createTheme } from '@mui/material/styles';
 const titleStyle = {
     margin: "3vw",
     fontSize: {xs: '8vh', md: '7vw'},
-    fontFamily: 'Tangerine, serif',
+    fontFamily: 'Alex Brush, Tangerine, serif',
 }
 
 const dateStyle = {
     fontSize: {xs:'3vh' ,md: "4vh"},
-    padding: "1vw"
+    padding: "1vw",
+    fontFamily: "Montserrat, roboto"
 }
 
 const previewStyle = {
     fontSize: {xs: "15px", md: "30px"},
     padding: "1vw",
-    lineHeight: "4vw"
+    lineHeight: "4vw",
+    fontFamily: "Montserrat, roboto"
 }
 
 const lineStyleTop = {

@@ -52,13 +52,13 @@ function MenuPart(props) {
                                       clickToScroll(props.refsList[index])
                                   }}
                         >
-                            <Typography textAlign="center">{page}</Typography>
+                            <Typography style={{fontFamily: 'Antic'}} textAlign="center">{page}</Typography>
                         </MenuItem>
                     ))}
                 </Menu>
         </Box>
 
-        <Box color={"inherit"} sx={{ flexGrow: 0, display: { xs: 'none', md: 'flex'}}}>
+        <Box color={"inherit"} sx={{fontFamily: 'Montserrat', flexGrow: 0, display: { xs: 'none', md: 'flex'}}}>
             {pages.map((page, index) => (
                 <Button
                     key={page}

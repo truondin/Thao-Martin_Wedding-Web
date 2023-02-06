@@ -10,9 +10,9 @@ const infoStyle = {
 
 const info1 = (
     <Box sx={infoStyle}>
-        <h3 style={{fontFamily: 'Tangerine, serif',fontWeight: 'normal', fontSize: 50}}>Jak jsme se poznali</h3>
+        <h3 style={{fontFamily: 'Alex Brush,Tangerine, serif',fontWeight: 'normal', fontSize: 50}}>Jak jsme se poznali</h3>
 
-        <div>
+        <div style={{fontFamily: "Montserrat, roboto", fontSize: 20}}>
             Našli jsme se 10.9.2016 a od té doby jsme šťastni.
             Ona ze Žatce, On z Krupky.
             Ona studovala v Hradci Králové Farmacii.
@@ -25,8 +25,8 @@ const info1 = (
 
 const info2 = (
     <Box sx={infoStyle}>
-        <h3 style={{fontFamily: 'Tangerine, serif',fontWeight: 'normal', fontSize: 50}}>Zásnuby</h3>
-        <div>
+        <h3 style={{fontFamily: 'Alex Brush, Tangerine, serif',fontWeight: 'normal', fontSize: 50}}>Zásnuby</h3>
+        <div style={{fontFamily: "Montserrat, roboto", fontSize: 20}}>
             Martin naplánoval romantický výlet do francouzského Lyonu.
             Říkáte si proč právě Lyon? Na to je jednoduchá odpověď - byly tam levné letenky z Prahy :D .
             Všechno mělo být velké překvapení, Martin byl velmi tajemný ohledně celé cesty, tudíž jsem pojala lehké podezření, že se něco chystá.

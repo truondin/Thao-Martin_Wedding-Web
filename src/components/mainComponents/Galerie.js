@@ -35,7 +35,7 @@ const itemData = [
 function Galerie(props) {
     return (
         <div ref={props.reference} style={{marginTop: "150px", display: "flex", justifyContent: "center", alignItems: "center", flexDirection:"column"}}>
-            <h1 style={{marginBottom: 0,fontFamily: 'Tangerine, serif', fontWeight: 'normal', fontSize: 70}}>Galerie</h1>
+            <h1 style={{marginBottom: 0,fontFamily: 'Alex Brush, Tangerine, serif', fontWeight: 'normal', fontSize: 70}}>Galerie</h1>
 
             <ImageList sx={{ width: "85%"}} cols={3} rowHeight={"auto"} variant={"quilted"}>
                 {itemData.map((item, index) => (
