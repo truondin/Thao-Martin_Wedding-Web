@@ -229,7 +229,7 @@ function Headline(props) {
             <hr style={lineStyleTop}/>
             <Box sx={previewStyle}>
                 VÍTEJTE NA NAŠICH SVATEBNÍCH STRÁNKÁCH! <br/>
-                Potkali jsme se… Poznali jsme se… Milujeme se... a tak se bereme 😊
+                <div style={{    fontFamily: 'Alex Brush, Tangerine, serif'}}>Potkali jsme se… Poznali jsme se… Milujeme se... a tak se bereme 😊</div>
             </Box>
             <hr style={lineStyleBot}/>
         </div>
