@@ -18,7 +18,7 @@ function MenuBar(props) {
     return (
         <AppBar position="sticky" sx={appBarStyle}>
             <Toolbar color={"inherit"} sx={toolBarStyle}>
-                <Typography variant="h3" component="div" style={{fontFamily:'Alex Brush, Tangerine, serif'}}>
+                <Typography variant="h3" component="div" sx={{fontSize: {xs: "5vh"}}} style={{fontFamily:'Alex Brush, Tangerine, serif'}}>
                     Thao & Martin
                 </Typography>
                 <MenuPart refsList={props.refsList}/>

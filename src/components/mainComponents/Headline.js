@@ -31,6 +31,13 @@ const previewStyle = {
     fontFamily: "Montserrat, roboto"
 }
 
+const previewUnderStyle = {
+    fontSize: {xs: "20px", md: "43px"},
+    padding: "1vh",
+    lineHeight: "4vw",
+    fontFamily: 'Alex Brush, Tangerine, serif',
+}
+
 const lineStyleTop = {
     border: "1px solid black",
     width: "10%",
@@ -229,7 +236,12 @@ function Headline(props) {
             <hr style={lineStyleTop}/>
             <Box sx={previewStyle}>
                 VÍTEJTE NA NAŠICH SVATEBNÍCH STRÁNKÁCH! <br/>
-                <div style={{    fontFamily: 'Alex Brush, Tangerine, serif'}}>Potkali jsme se… Poznali jsme se… Milujeme se... a tak se bereme 😊</div>
+            </Box>
+            <Box sx={previewUnderStyle}>
+                Potkali jsme se… Poznali jsme se… Milujeme se...
+            </Box>
+            <Box sx={previewUnderStyle}>
+                A tak se bereme 😊
             </Box>
             <hr style={lineStyleBot}/>
         </div>

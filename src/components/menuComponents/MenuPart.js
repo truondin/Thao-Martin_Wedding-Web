@@ -21,7 +21,7 @@ function MenuPart(props) {
     }
 
     return (<div style={{backgroundColor: 'white'}}>
-        <Box color={"inherit"} sx={{ flexGrow: 0, display: { xs: 'block', md: 'none'}}}>
+        <Box color={"inherit"} sx={{ fontFamily: 'Montserrat', flexGrow: 0, display: { xs: 'block', md: 'none'}}}>
              <Button
                  size="large"
                  edge="start"
