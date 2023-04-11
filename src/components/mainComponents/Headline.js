@@ -25,14 +25,14 @@ const dateStyle = {
 }
 
 const previewStyle = {
-    fontSize: {xs: "15px", md: "30px"},
+    fontSize: {xs: "15px", md: "30px", sm: "25px"},
     padding: "1vw",
     lineHeight: "4vw",
     fontFamily: "Montserrat, roboto"
 }
 
 const previewUnderStyle = {
-    fontSize: {xs: "20px", md: "43px"},
+    fontSize: {xs: "20px", md: "43px", sm: "30px"},
     padding: "1vh",
     lineHeight: "4vw",
     fontFamily: 'Alex Brush, Tangerine, serif',
