@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/Thao-Martin_Wedding-Web/precache-manifest.41f3ba765ca87dd0ef7cf5303882f437.js"
+  "/Thao-Martin_Wedding-Web/precache-manifest.d6bc3c43344291cda77201c618e32674.js"
 );
 
 workbox.clientsClaim();
