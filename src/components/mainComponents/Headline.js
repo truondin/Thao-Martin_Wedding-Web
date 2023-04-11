@@ -81,6 +81,7 @@ function Headline(props) {
 
     const [nameValue, setNameValue] = React.useState("");
     const [attend, setAttend] = React.useState("");
+    const [sleepMake, setSleepMake] = React.useState("Ne");
     const [plusOne, setPlusOne] = React.useState(false);
     const [sleep, setSleep] = React.useState(false);
 
@@ -102,7 +103,8 @@ function Headline(props) {
     const handleClickOpen = () => {
         setNameValue("");
         setAttend("");
-        setPlusOne(false);
+        // setPlusOne(false);
+        setSleepMake("");
         setSleep(false);
         setSuccessAlert(false);
 
@@ -125,7 +127,8 @@ function Headline(props) {
         setOpenSnackBar(true)
         let name = nameValue;
         let willAttend = attend;
-        let havePlusOne = plusOne ? "ANO" : "NE";
+        // let havePlusOne = plusOne ? "ANO" : "NE";
+        let havePlusOne = sleepMake === ""? "NE": sleepMake;
         let willSleep = sleep? "ANO": "NE";
 
         if (nameValue !== "" && willAttend !== ""){
@@ -165,7 +168,7 @@ function Headline(props) {
 
             <ThemeProvider theme={theme}>
                 <Button variant={"contained"} sx={rsvpStyle} size={"large"} color={"black"} onClick={handleClickOpen}>
-                    RSVP
+                    Vyplnit pozvánku
                 </Button>
                 <Dialog open={open} onClose={handleClose}>
                     <DialogTitle>RSVP</DialogTitle>
@@ -201,13 +204,6 @@ function Headline(props) {
                                 <FormControlLabel value="Ano" control={<Radio />} label="Ano" />
                                 <FormControlLabel value="Ne" control={<Radio />} label="Ne" />
                             </RadioGroup>
-
-                            <FormControlLabel
-                                value={plusOne} onChange={(e, checked) => {
-                                setPlusOne(checked)
-                            }}
-                                control={<Checkbox />} label="Budu mít doprovod"
-                            />
                             <FormControlLabel
                                 value={sleep}
                                 onChange={(e, checked) => {
@@ -216,13 +212,30 @@ function Headline(props) {
                                 control={<Checkbox />}
                                 label="Budu přespávat"
                             />
+
+                            <RadioGroup
+                                row
+                                value={sleepMake}
+                                onChange={(e) => {
+                                    setSleepMake(e.target.value)
+                                }}
+                            >
+                                <FormControlLabel disabled={!sleep} value="NE" control={<Radio />} label="Zařídím si sám" />
+                                <FormControlLabel disabled={!sleep} value="ANO" control={<Radio />} label="Potřeboval bych zařídit" />
+                            </RadioGroup>
+                            {/*<FormControlLabel*/}
+                            {/*    value={plusOne} onChange={(e, checked) => {*/}
+                            {/*    setPlusOne(checked)*/}
+                            {/*}}*/}
+                            {/*    control={<Checkbox />} label="Budu mít doprovod"*/}
+                            {/*/>*/}
                         </FormControl>
 
                     </DialogContent>
 
                     <DialogActions>
                         <Button onClick={handleSend} onSubmit={()=> {console.log("submit")}}>Odeslat</Button>
-                        <Button onClick={handleClose} color={"error"}>Zrušit</Button>
+                        <Button onClick={handleClose} color={"error"}>Zavřít</Button>
                     </DialogActions>
                 </Dialog>
             </ThemeProvider>

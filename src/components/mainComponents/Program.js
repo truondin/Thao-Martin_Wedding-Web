@@ -30,13 +30,9 @@ function Program(props) {
                             <TimelineConnector />
                         </TimelineSeparator>
                         <TimelineContent>
-                            <Typography variant="h5" component="span" sx={titleStyle}>Title 1</Typography>
+                            <Typography variant="h5" component="span" sx={titleStyle}>13:00 - 14:15</Typography>
                             <Typography sx={infoTitleStyle}>
-                                Because you need strength asda  ad asd asda d a
-                                Because you need strength asda  ad asd asda d aa dad afad ad ad
-                                Because you need strength asda  ad asd asda d aa dad afad ad ad
-                                Because you need strength asda  ad asd asda d aa dad afad ad ad
-                                Because you need strength asda  ad asd asda d aa dad afad ad ad
+                                Příjezd hostů
                             </Typography>
                         </TimelineContent>
                     </TimelineItem>
@@ -46,31 +42,28 @@ function Program(props) {
                             <TimelineConnector />
                         </TimelineSeparator>
                         <TimelineContent>
-                            <Typography variant="h5" component="span" sx={titleStyle}>Title 2</Typography>
+                            <Typography variant="h5" component="span" sx={titleStyle}>14:15 - ?</Typography>
                             <Typography sx={infoTitleStyle}>
-                                Because you need strength asda  ad asd asda d a
-                                Because you need strength asda  ad asd asda d aa dad afad ad ad
-                                Because you need strength asda  ad asd asda d aa dad afad ad ad
-                                Because you need strength asda  ad asd asda d aa dad afad ad ad
-                                Because you need strength asda  ad asd asda d aa dad afad ad ad
-                            </Typography></TimelineContent>
-                    </TimelineItem>
-                    <TimelineItem>
-                        <TimelineSeparator>
-                            <TimelineDot />
-                            <TimelineConnector />
-                        </TimelineSeparator>
-                        <TimelineContent>
-                            <Typography variant="h5" component="span" sx={titleStyle}>Title 3</Typography>
-                            <Typography sx={infoTitleStyle}>
-                                Because you need strength asda  ad asd asda d a
-                                Because you need strength asda  ad asd asda d aa dad afad ad ad
-                                Because you need strength asda  ad asd asda d aa dad afad ad ad
-                                Because you need strength asda  ad asd asda d aa dad afad ad ad
-                                Because you need strength asda  ad asd asda d aa dad afad ad ad
+                               Coming soon!
                             </Typography>
                         </TimelineContent>
                     </TimelineItem>
+                    {/*<TimelineItem>*/}
+                    {/*    <TimelineSeparator>*/}
+                    {/*        <TimelineDot />*/}
+                    {/*        <TimelineConnector />*/}
+                    {/*    </TimelineSeparator>*/}
+                    {/*    <TimelineContent>*/}
+                    {/*        <Typography variant="h5" component="span" sx={titleStyle}>Title 3</Typography>*/}
+                    {/*        <Typography sx={infoTitleStyle}>*/}
+                    {/*            Because you need strength asda  ad asd asda d a*/}
+                    {/*            Because you need strength asda  ad asd asda d aa dad afad ad ad*/}
+                    {/*            Because you need strength asda  ad asd asda d aa dad afad ad ad*/}
+                    {/*            Because you need strength asda  ad asd asda d aa dad afad ad ad*/}
+                    {/*            Because you need strength asda  ad asd asda d aa dad afad ad ad*/}
+                    {/*        </Typography>*/}
+                    {/*    </TimelineContent>*/}
+                    {/*</TimelineItem>*/}
                 </Timeline>
             </Box>
 
