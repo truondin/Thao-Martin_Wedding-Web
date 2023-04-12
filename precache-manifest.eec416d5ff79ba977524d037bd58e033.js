@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "f3a0b65dc11093871a93",
+    "revision": "8d54470a4470b3a935c9",
     "url": "/Thao-Martin_Wedding-Web/static/css/main.70661ee1.chunk.css"
   },
   {
-    "revision": "f3a0b65dc11093871a93",
-    "url": "/Thao-Martin_Wedding-Web/static/js/main.f3a0b65d.chunk.js"
+    "revision": "8d54470a4470b3a935c9",
+    "url": "/Thao-Martin_Wedding-Web/static/js/main.8d54470a.chunk.js"
   },
   {
     "revision": "dbcaf9f90a7783afe4d3",
@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/Thao-Martin_Wedding-Web/static/js/runtime~main.c7db853a.js"
   },
   {
-    "revision": "bc6aef282cc674ca3a0c72b91dc82885",
+    "revision": "18c025ec7ca490e48d5842be3a5b83d9",
     "url": "/Thao-Martin_Wedding-Web/index.html"
   }
 ];
