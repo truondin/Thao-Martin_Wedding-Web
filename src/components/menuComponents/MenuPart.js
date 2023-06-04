@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import {Box, Button, Fade, Grid, IconButton, Menu, MenuItem, Typography} from "@mui/material";
 import MenuIcon from '@mui/icons-material/Menu';
 
-const pages = ["SVATEBNÍ PARTY", "PROGRAM", "INFORMACE", "GALERIE"];
+const pages = ["ÚVOD", "PROGRAM", "INFORMACE", "GALERIE"];
 
 
 function MenuPart(props) {

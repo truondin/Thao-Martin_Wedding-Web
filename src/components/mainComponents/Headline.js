@@ -81,7 +81,7 @@ function Headline(props) {
 
     const [nameValue, setNameValue] = React.useState("");
     const [attend, setAttend] = React.useState("");
-    const [sleepMake, setSleepMake] = React.useState("Ne");
+    const [sleepMake, setSleepMake] = React.useState("");
     const [plusOne, setPlusOne] = React.useState(false);
     const [sleep, setSleep] = React.useState(false);
 
