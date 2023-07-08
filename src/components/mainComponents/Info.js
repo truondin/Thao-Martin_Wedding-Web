@@ -13,8 +13,8 @@ function Info(props) {
     return (
         <div ref={props.reference} style={{display: "flex", justifyContent: "center", alignItems: "center", flexDirection:"column"}}>
             <h1 style={{marginBottom: 0,fontFamily: 'Alex Brush, Tangerine, serif', fontWeight: 'normal', fontSize: 70}}>Informace</h1>
-            <Box sx={{fontFamily: 'Montserrat, roboto'}}>
-                <h2>Informace pro hosty z okolí Cínovce a penzionu U Lípy:</h2>
+            <Box sx={{fontFamily: 'Montserrat, roboto', margin:5}}>
+                <h2>Informace pro hosty z okolí Cínovce, hotelu Lípa a hotelu Green House:</h2>
                 <div style={{fontSize:20, margin: 5, paddingRight:10, paddingLeft: 10}}>
                     Nabízíme možnost dovozu na obřad v případě, že nebudete chtít řídit – svědek Marek a bratránek Radek Vám rádi budou k dispozici.
                     Prosím kontaktujte nás pokud budete mít zájem o svoz před obřadem. <br/><br/>
@@ -23,18 +23,21 @@ function Info(props) {
             </Box>
 
             <br/>
-            <Box sx={{fontFamily: 'Montserrat, roboto'}}>
+            <Box sx={{fontFamily: 'Montserrat, roboto', margin: 5}}>
                 <h2>Informace pro přespávající:</h2>
                 <div style={{fontSize:20, margin: 5, paddingRight:10, paddingLeft: 10}}>
                     Ubytování je zarezervováno přímo v Krušnohorském Dvoře a dále pak v 12 min pěšky vzdáleném hotel Lípa. Check-in kolem 13:00.
 
                     <br/><br/>
                     <b>Hotel Krušnohorský Dvůr</b> – cena za noc 990 Kč/os. se snídaní + 690 Kč přistýlka, platba možná v hotovosti i kartou. <br/><br/>
-                    <b>Hotel Lípa</b> – cena za noc 690 Kč/os. bez snídaně, se snídaní příplatek 150 Kč/os., platba je možná pouze v hotovosti. <br/><br/>
+                    <b>Hotel Lípa</b> – cena za noc 690 Kč/os. bez snídaně, se snídaní příplatek 150 Kč/os., platba je možná <b>pouze v hotovosti.</b> <br/><br/>
+                    <b>Hotel Green House</b> – cena za noc 1090 Kč/pokoj, se snídaní příplatek 130 Kč., platba možná v hotovosti i kartou.<br/><br/>
 
                     <div>
+                    <i>
                         Rozpis pokojů pro všechny hosty naleznete&nbsp;
                     <a href={"https://docs.google.com/spreadsheets/d/1JxemX8bjIa2dv_83-dHLk4keG_YjOzIZbypi99t2-sQ/edit?usp=sharing"}>zde</a>.
+                    </i>
                     </div>
                 </div>
             </Box>
